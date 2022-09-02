@@ -1,0 +1,107 @@
+form#user {
+    margin-left: 35vw;
+    margin-right: 35vw;   
+    margin-top: 10vh;
+    border: 2px rgb(225, 45, 45) solid;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+form#main {
+  margin: 60px;
+}
+
+#specialbutton {
+  margin-top: 40px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img#avatar {
+  margin: 30px;
+  width: 170px;
+  height: 170px;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 100%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  height: 550px;
+  width: 350px;
+  border: 8px outset rgb(82, 120, 255);
+  border-radius: 30px;
+  background-image: url(sourceimg/cardbackground.jpg);
+}
+
+.editbar {
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.editbarbuttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#editbutton { 
+  margin: 6px;  
+  width: 120px; 
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 12px 24px;
+  border: 0;
+  color: #fff;
+  background: #000a47;
+  line-height: 1.15;
+  font-size: 16px;
+}
+
+#editbutton:hover {
+  transition: all .1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    form {
+      margin-left: 30vw;
+      margin-right: 30vw;
+    }
+  }
+
+@media only screen and (max-width: 992px) {
+    form {
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+}
+
+@media only screen and (max-width: 768px) {
+form {
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+}
+
+@media only screen and (max-width: 600px) {
+form {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+img#avatar {
+  margin: 15px;
+  width: 80px;
+  height: 80px;
+}
+}
